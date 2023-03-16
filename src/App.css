@@ -1,0 +1,50 @@
+.item-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.item-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.item-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.item-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  padding: 2rem;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  padding-right: 1rem;
+}
+
+.input {
+  margin-bottom: 1rem;
+}
