@@ -5,8 +5,8 @@ const TodoItem = ({ todo, index, removeTodo }) => {
   return (
     <div className="todo-item">
       <span>{todo.text}</span>
-      <Button color="danger" onClick={() => removeTodo(index)}>
-        X
+      <Button color="success" onClick={() => removeTodo(index)}>
+      ✓
         </Button>
     </div>
   );

@@ -21,11 +21,13 @@
 }
 
 .App {
-  display: flex;
+ 
   flex-direction: column;
   align-items: center;
-  font-family: 'Arial', sans-serif;
-  padding: 2rem;
+  font-family: 'Marker Felt';
+  padding: 7rem;
+  background-color: rgb(204, 240, 251);
+  max-width: 35%;
 }
 
 .todo-item {
@@ -34,17 +36,28 @@
   align-items: center;
   width: 100%;
   max-width: 400px;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
   padding: 0.5rem;
   background-color: #f8f9fa;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 .todo-item span {
   flex-grow: 1;
-  padding-right: 1rem;
+  padding-right: 8rem;
+  font-family:'Bradley Hand';
+  font-size: large;
+  
 }
 
 .input {
+  margin-bottom: 1rem;
+
+}
+
+.title {
+  font-family:'Chalkduster';
+  color: rgb(0, 81, 255);
   margin-bottom: 1rem;
 }

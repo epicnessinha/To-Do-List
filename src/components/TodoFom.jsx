@@ -19,10 +19,10 @@ const TodoForm = ({ addTodo }) => {
           className="input"
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          placeholder="Add a new task"
+          placeholder="Add a new task ✍"
         />
       </FormGroup>
-      <Button color="primary">Add</Button>
+      <Button color="primary">✎ Add</Button>
     </Form>
   );
 };
