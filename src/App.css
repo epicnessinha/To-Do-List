@@ -27,7 +27,7 @@
   font-family: 'Marker Felt';
   padding: 7rem;
   background-color: rgb(201, 228, 237);
-  max-width: 35%;
+  max-width: 40%;
 }
 
 .todo-item {
@@ -60,6 +60,7 @@
   font-family:'Chalkduster';
   color: rgb(0, 81, 255);
   margin-bottom: 1rem;
+
 }
 
 .check {
